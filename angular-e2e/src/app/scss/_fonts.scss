@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+$ptMono: 'PT Mono', monospace;
+$font-primary: 'OpenSansRegular';
+$font-primary-semiBold: 'OpenSansSemibold';
+$font-primary-bold: 'OpenSansBold';
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../../assets/fonts/OpenSansLight.eot');
+    src: url('../../assets/fonts/OpenSansLight.eot') format('embedded-opentype'),
+         url('../../assets/fonts/OpenSansLight.woff2') format('woff2'),
+         url('../../assets/fonts/OpenSansLight.woff') format('woff'),
+         url('../../assets/fonts/OpenSansLight.ttf') format('truetype'),
+         url('../../assets/fonts/OpenSansLight.svg#OpenSansLight') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../../assets/fonts/OpenSansRegular.eot');
+    src: url('../../assets/fonts/OpenSansRegular.eot') format('embedded-opentype'),
+         url('../../assets/fonts/OpenSansRegular.woff2') format('woff2'),
+         url('../../assets/fonts/OpenSansRegular.woff') format('woff'),
+         url('../../assets/fonts/OpenSansRegular.ttf') format('truetype'),
+         url('../../assets/fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('../../assets/fonts/OpenSansSemibold.eot');
+    src: url('../../assets/fonts/OpenSansSemibold.eot') format('embedded-opentype'),
+         url('../../assets/fonts/OpenSansSemibold.woff2') format('woff2'),
+         url('../../assets/fonts/OpenSansSemibold.woff') format('woff'),
+         url('../../assets/fonts/OpenSansSemibold.ttf') format('truetype'),
+         url('../../assets/fonts/OpenSansSemibold.svg#OpenSansSemibold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../../assets/fonts/OpenSansBold.eot');
+    src: url('../../assets/fonts/OpenSansBold.eot') format('embedded-opentype'),
+         url('../../assets/fonts/OpenSansBold.woff2') format('woff2'),
+         url('../../assets/fonts/OpenSansBold.woff') format('woff'),
+         url('../../assets/fonts/OpenSansBold.ttf') format('truetype'),
+         url('../../assets/fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+}

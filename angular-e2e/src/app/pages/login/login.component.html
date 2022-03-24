@@ -1,0 +1,28 @@
+<div class="full-page-wrapper full-width">
+    <div class="square-box">
+        <div class="head-wrapper has-form-bottom">
+            <h1 i18n>Enter your username</h1>
+            <p>Please enter your username to identify you.</p>
+        </div>
+        <div class="content-wrapper">
+            <form [formGroup]="loginForm">
+                <div class="input_with_inline_btn">
+                    <div class="input_wrapper">
+                        <mat-form-field appearance="outline">
+                            <mat-label i18n>Username</mat-label>
+                            <input formControlName="username" appAutoFocus="true" matInput type="text" id="userName">
+                            <mat-error class="errorMessage" *ngIf="loginForm.controls['username'].getError('required')">{{errorMessage}}</mat-error>
+                            <mat-error class="errorMessage" *ngIf="loginForm.controls['username'].getError('invalid')">{{errorMessage}}</mat-error>
+                        </mat-form-field>
+                    </div>
+                    <button id="submit" mat-button class="primary-btn" type="submit" (click)="submit()">
+                        <i class="material-icons">arrow_forward</i>
+                    </button>
+                </div>
+                <div class="button-wrapper">
+                    <mat-checkbox i18n formControlName="rememberMe">Remember me</mat-checkbox>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
